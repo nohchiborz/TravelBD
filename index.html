@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>TravelBD</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container container">
+        <a href="#" class="logo"><img src="img/logo.svg" alt="logotype"></a>
+        <nav class="nav">
+          <input id="nav__toggle" type="checkbox" />
+          <label for="nav__toggle" class="nav__hamburger-btn">
+            <span></span>
+          </label>
+          <ul class="nav__items">
+            <li class="nav__item nav__item_active"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Destination</a></li>
+            <li class="nav__item"><a href="#">About</a></li>
+            <li class="nav__item"><a href="#">Tour</a></li>
+            <li class="nav__item"><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="signin">Sign In</a>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="intro__container container">
+        <div class="intro__header">
+          <div class="intro__text-block text-block">
+            <h1 class="text-block__title">Lifelong memories just a few seconds away</h1>
+            <p class="text-block__subtitle">Let's start your journey with us, your dream will come true</p>
+            <a href="#" class="text-block__btn btn">Explore Now</a>
+          </div>
+        </div>
+        <div class="intro__media">
+          <div class="intro__media-header">
+            <p>The Most Famous Tour Spots In BD</p>
+            <img class="intro__media-arrow arrow" src="img/intro/arrow.svg" alt="icon of arrow">
+          </div>
+          <div class="intro__media-content">
+            <div class="intro__media-video video-card">
+              <div class="video-card__video">
+                  <img src="img/intro/video-pic1.png" alt="pic of video">
+                  <a href="#" class="video-card__playbtn"></a>
+              </div>
+              <p class="video-card__caption">Saint Martin</p>
+            </div>
+            <div class="intro__media-video video-card">
+              <div class="video-card__video">
+                  <img src="img/intro/video-pic2.png" alt="pic of video">
+                  <a href="#" class="video-card__playbtn"></a>
+              </div>
+              <p class="video-card__caption">Cox's BAzar</p>
+            </div>
+            <div class="intro__media-video video-card">
+              <div class="video-card__video">
+                  <img src="img/intro/video-pic3.png" alt="pic of video">
+                  <a href="#" class="video-card__playbtn"></a>
+              </div>
+              <p class="video-card__caption">Ratargul Forest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social">
+        <span class="social__title">Follow us</span>
+        <span class="social__links">
+          <a href="#" class="social__link">
+            <img src="img/instagram.svg" alt="icon of Instagram">
+          </a>
+          <a href="#" class="social__link">
+            <img src="img/twitter.svg" alt="icon of Twitter">
+          </a>
+        </span>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__container container">
+        <article class="about__article article">
+          <div class="article__text-block text-block">
+            <h2 class="text-block__title">About Us</h2>
+            <h3 class="text-block__subtitle">The best travel agency for you</h3>
+            <img src="img/about/article__pic.png" alt="" class="text-block__picture">
+            <p class="text-block__text">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. In elementum sit libero, placerat
+              nibh facilisis in rutrum. Risus, gravida purus nunc
+              suspendisse. Sit elementum mi, netus in sit. Massa
+              posuere ac auctor quis elementum.
+            </p>
+            <a href="#" class="text-block__link">
+              <p>Read more about us</p>
+              <img src="img/arrow.svg" alt="icon of arrow" class="text-block__arrow arrow">
+            </a>
+          </div>
+        </article>
+        <div class="about__services services">
+          <div class="services__header text-block">
+            <h2 class="text-block__title">Our Services</h2>
+            <h3 class="text-block__subtitle">We help our clients throughout the trip</h3>
+          </div>
+          <div class="services__items">
+            <div class="services__service service">
+              <img src="img/about/service1.png" alt="pic of service" class="service__pic">
+              <div class="service__text-block text-block">
+                <h2 class="text-block__title">Destinations</h2>
+                <p class="text-block__text">Choose  any destination you like, we have several country ratings</p>
+              </div>
+            </div>
+            <div class="services__service service">
+              <img src="img/about/service2.png" alt="pic of service" class="service__pic">
+              <div class="service__text-block text-block">
+                <h2 class="text-block__title">Tours</h2>
+                <p class="text-block__text">A large number of tours to different countries for one or a family</p>
+              </div>
+            </div>
+            <div class="services__service service">
+              <img src="img/about/service3.png" alt="pic of service" class="service__pic">
+              <div class="service__text-block text-block">
+                <h2 class="text-block__title">Luxury hotel</h2>
+                <p class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="services__service service">
+              <img src="img/about/service4.png" alt="pic of service" class="service__pic">
+              <div class="service__text-block text-block">
+                <h2 class="text-block__title">Assistance</h2>
+                <p class="text-block__text">We are ready to solve all your questions and help to deal with problems</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="search__container container">
+        <div class="search__content">
+          <h2 class="search__title">Where you want to go?</h2>
+          <form action="" class="search__form form">
+            <label for="input" class="visually-hidden"></label>
+            <input type="search" id="input" placeholder="Where to go?">
+            <label for="date">Date<input type="date" id="date"></label>
+            <label for="type" class="visually-hidden"></label>
+            <select name="" id="type">
+              <option value="" selected="selected">Travel Type</option>
+            </select>
+            <button class="form__btn btn">Search</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="destination">
+      <div class="destination__container container">
+        <div class="destination__header">
+          <div class="destination__text-block text-block">
+            <h2 class="text-block__title">Our Destination</h2>
+            <h3 class="text-block__subtitle">Choose Your Next Destination</h3>
+          </div>
+        </div>
+        <div class="destination__content">
+          <div class="destination__cards">
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card1.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card2.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card3.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card4.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card5.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+            <div class="destination__card card">
+              <a href="#" class="card__link">
+                <div class="card__img">
+                  <img src="img/card6.png" alt="image of destination">
+                </div>
+                <p class="card__info">
+                  <span class="card__price">100$</span>
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="destination__pagination pagination">
+            <span class="pagination__total">Total 10 pages</span>
+            <ul class="pagination__numbers">
+              <li class="pagination__number arrow"><img src="img/pagination-arrow.svg" alt="icon of arrow" class="arrow__left"></li>
+              <li class="pagination__number active">1</li>
+              <li class="pagination__number">2</li>
+              <li class="pagination__number">3</li>
+              <li class="pagination__number">4</li>
+              <li class="pagination__number">5</li>
+              <li class="pagination__number">6</li>
+              <li class="pagination__number">7</li>
+              <li class="pagination__number">8</li>
+              <li class="pagination__number">9</li>
+              <li class="pagination__number arrow"><img src="img/pagination-arrow.svg" alt="icon of arrow" class="arrow__right"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__container container">
+        <div class="subscribe__header">
+          <h2 class="subscribe__title">Subscribe Our Newsletter</h2>
+          <p class="subscribe__text">Subscribe our newsletter to get offers and about new places to discover.</p>
+        </div>
+        <form action="" class="subscribe__form">
+          <label for="email" class="visually-hidden"></label>
+          <input id="email" class="subscribe__input" type="email" placeholder="Your Email">
+          <button class="subscribe__btn btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section class="review">
+      <div class="review__container container">
+        <div class="review__reviews reviews">
+          <div class="reviews__header text-block">
+            <h2 class="text-block__title">Reviews</h2>
+            <p class="text-block__text">
+              we always ask our clients to leave hones reviews,
+              on the basis of which you can make a choice
+            </p>
+          </div>
+          <div class="reviews__block block-review">
+            <div class="block-review__author author">
+              <div class="author__portret">
+                <img src="img/review-author.png" alt="portret of author">
+              </div>
+              <div class="author__info">
+                <h2 class="author__name">Full name</h2>
+                <p class="author__age">25 y.o</p>
+              </div>
+            </div>
+            <div class="block-review__tour tour">
+              <h2>Toor: <span class="tour__place">cox's bazar</span></h2>
+              <div class="tour__images">
+                <img src="img/review-image1.png" alt="image of tour" class="tour__image">
+                <img src="img/review-image2.png" alt="image of tour" class="tour__image">
+              </div>
+            </div>
+            <div class="block-review__rating rating">
+              <div class="rating__item" id="assistance">
+                <h3 class="rating__title">assistance</h3>
+                <div class="rating__bar bar">
+                  <div class="bar__length"></div>
+                </div>
+                <span class="rating__rate">100%</span>
+              </div>
+              <div class="rating__item" id="quality">
+                <h3 class="rating__title">tour quality</h3>
+                <div class="rating__bar bar">
+                  <div class="bar__length"></div>
+                </div>
+                <span class="rating__rate">90%</span>
+              </div>
+              <div class="rating__item" id="hotel">
+                <h3 class="rating__title">hotel</h3>
+                <div class="rating__bar bar">
+                  <div class="bar__length"></div>
+                </div>
+                <span class="rating__rate">85%</span>
+              </div>
+              <div class="rating__total">
+                <h3 class="rating__title">overall rating:</h3>
+                <span class="rating__total-rate">10</span>
+              </div>
+            </div>
+            <p class="block-review__comment">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in.
+              Posuere lectus adipiscing netus massa enim, arcu ut. Arcu arcu nunc suspendisse fermentum. Nunc dictumst pharetra sed.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu phasellus faucibus neque fusce nunc in.
+            </p>
+          </div>
+        </div>
+        <div class="review__trips trips">
+          <div class="trips__header text-block">
+            <h2 class="text-block__title">Our Recent Trips</h2>
+          </div>
+          <div class="trips__content">
+            <div class="trips__trip trip">
+              <div class="trip__card card">
+                <div class="card__img">
+                  <img src="img/card1.png" alt="image of trip">
+                </div>
+                <p class="card__info">
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </div>
+              <span class="trip__date">october 19, 2021</span>
+              <a href="#" class="trip__link">Lorem Ipsum Dolor Sit Amet, Consectet Adipiscing Elit</a>
+            </div>
+            <div class="trips__trip trip">
+              <div class="trip__card card">
+                <div class="card__img">
+                  <img src="img/card2.png" alt="image of trip">
+                </div>
+                <p class="card__info">
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </div>
+              <span class="trip__date">october 19, 2021</span>
+              <a href="#" class="trip__link">Lorem Ipsum Dolor Sit Amet, Consectet Adipiscing Elit</a>
+            </div>
+            <div class="trips__trip trip">
+              <div class="trip__card card">
+                <div class="card__img">
+                  <img src="img/card3.png" alt="image of trip">
+                </div>
+                <p class="card__info">
+                  <span class="card__destination">Saint Martin</span>
+                </p>
+              </div>
+              <span class="trip__date">october 19, 2021</span>
+              <a href="#" class="trip__link">Lorem Ipsum Dolor Sit Amet, Consectet Adipiscing Elit</a>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+          <img src="img/logo.svg" alt="logotype" class="footer__logo">
+          <div class="footer__content">
+            <div class="footer__article">
+              <div class="footer__text-block text-block">
+                <h2 class="text-block__title">About Travelers</h2>
+                <p class="text-block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque fringilla faucibus consectetur in. Curabitur eu,
+                  nunc suspe ndisse duis malesuada. Netus viverra amet montes,
+                  rutrum vel pretium. Purus orci nunc morbi dolor. Quis aenean
+                  aliquam.
+                </p>
+              </div>
+              <div class="footer__social-links">
+                <a href="" class="footer__social-link"><img src="img/footer/facebook.svg" alt="icon of social link"></a>
+                <a href="" class="footer__social-link"><img src="img/footer/twitter.svg" alt="icon of social link"></a>
+                <a href="" class="footer__social-link"><img src="img/footer/instagram.svg" alt="icon of social link"></a>
+              </div>
+            </div>
+            <nav class="footer__nav nav">
+              <h2 class="nav__title">Navigations</h2>
+              <ul class="nav__links">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#" class="nav__link">Destination</a></li>
+                <li><a href="#" class="nav__link">Services</a></li>
+                <li><a href="#" class="nav__link">About</a></li>
+                <li><a href="#" class="nav__link">About Us</a></li>
+                <li><a href="#" class="nav__link">Privacy Policy</a></li>
+                <li><a href="#" class="nav__link">Contact Us</a></li>
+                <li><a href="#" class="nav__link">Discounts</a></li>
+              </ul>
+            </nav>
+            <div class="footer__subscribe footer-subscribe">
+              <div class="subscribe__header">
+                <h2 class="subscribe__title">Subscribe Newsletter</h2>
+                <p class="subscribe__text">Lorem Ipsum Dolor Sit Amet, Consectetur Doler Adipiscing Elit.</p>
+              </div>
+              <form action="" class="footer-subscribe__form">
+                <label for="footer-email" class="visually-hidden"></label>
+                <input id="footer-email" class="footer-subscribe__input" type="email" placeholder="Enter Email">
+                <button class="footer-subscribe__btn btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <p class="footer__rights rights">
+            Tour Landing page by <a href="#" class="design-author">ashraful</a> <span class="rights__slogan">&copy; All Rights Reserved. 2021</span>
+          </p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
